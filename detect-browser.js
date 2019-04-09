@@ -152,7 +152,7 @@ function getBrowser() {
 		online: navigator.onLine,
 		timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
 		screen_resolution: screen.width + ' x ' + screen.height,
-		cookie_enabled: navigator.cookieEnabled,
+		cookie_enabled: navigator.cookieEnabled
 	};
 }
 
